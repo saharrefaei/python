@@ -1,18 +1,18 @@
-marks = [] 
-name=input ('name :')
+marks = []
+name = input('name: ')
 marks.append(name)
-point1 = input ('point1 : ')
+
+point1 = float(input('point1: '))
 marks.append(point1)
 
-point2 = input ('point2 : ')
+point2 = float(input('point2: '))
 marks.append(point2)
 
-point3 = input ('point3 : ')
+point3 = float(input('point3: '))
 marks.append(point3)
 
-point4 = input ('point4 : ')
-
+point4 = float(input('point4: '))
 marks.append(point4)
 
-print (marks)
-
+average = (marks[1] + marks[2] + marks[3] + marks[4]) / 4
+print("Average:", average)
