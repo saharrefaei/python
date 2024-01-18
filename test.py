@@ -1,11 +1,7 @@
-N = float(input('Number ? : '))
+Number = 1
 
-while True:
-   M = float(input("do you want more number ?"))
-   if N < M :
-     N = M 
-   s = input("do you wanna continue ?")
-   if s.lower() == "no" :
-       break
-
-print('the lower is ' , M)
+while Number <=10 :
+    Number+=1
+    if Number % 3 == 0 :
+        continue
+    print(Number)
